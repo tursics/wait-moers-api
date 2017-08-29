@@ -1,7 +1,8 @@
 Waiting Moers API
 -----------------
 
-...
+First API endpoint:
+https://tursics.com/api/moers/v1/wait/current
 
 System Requirements
 -------------------

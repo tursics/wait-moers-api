@@ -72,7 +72,7 @@ function getWait() {
 	return convertWaitTicketJSON(getCurrentWaitDataXML());
 }
 
-$app->get('/wait/current', function ($request, $response, $args) {
+$app->get('/api/moers/v1/wait/current', function ($request, $response, $args) {
 	$this->logger->addInfo('wait/current');
 	$params = $request->getQueryParams();
 

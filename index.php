@@ -24,7 +24,6 @@ function getWait() {
 	function getCurrentWaitDataXML()
 	{
 		$dataURL = 'https://www.moers.de/de/opendataxml/wartezeiten/';
-		$dataURL = '/Users/thomastursics/github/wait-moers/backend/data/2017-08/2017-08-29.xml';
 		return file_get_contents( $dataURL);
 	}
 
